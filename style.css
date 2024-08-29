@@ -1,0 +1,65 @@
+:root{
+    --primary-color: #020617;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.white_text_color{
+    color: aliceblue;
+}
+.first_section_paragraph_color{
+    color: #6B7280;
+}
+.first_section_background_color{
+    background-color: #111827;
+}
+.first_section_margin{
+    margin: 100px;
+}
+.first_section_image_background_color{
+    background-color:#C7D0D5;
+}
+/* second-section */
+.second_section_background_color{
+    background-color: #020617;
+}
+/* service section */
+.service_section_text_align_center{
+    text-align: center;
+}
+.service_details_margin_left{
+    margin-left: 110px;
+    padding-top: 100px;
+}
+.service_image_margin_left{
+    margin-left: 140px;
+}
+/* portfolio section */
+.portfolio_img_grid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    row-gap: 25px;
+    align-items: center;
+
+}
+.portfolio_left_img_size{
+    width: 600px;
+    height: 540px;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+.portfolio_right_img_size{
+    width: 320px;
+    height: 260px;
+    border-radius: 10px;
+}
+/* my contact form placeholder color */
+.contact_me_placeholder_color{
+    background-color: #1F2937;
+    border: none;
+}
+.footer_icon_size{
+    width: 30px;
+    height: auto;
+}
